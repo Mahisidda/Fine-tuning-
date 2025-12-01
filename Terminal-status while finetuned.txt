@@ -1,0 +1,727 @@
+(llmtrain) D:\Fine-tuning\local>python train.py
+Loading tokenizer...
+Validating dataset files...
+Loading 5 train file(s) and 3 val file(s)...
+Train examples: 495888
+Val examples  : 26426
+Mapping to chat text...
+Map: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20000/20000 [00:05<00:00, 3826.40 examples/s]
+Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2000/2000 [00:00<00:00, 3787.57 examples/s]
+Tokenizing...
+Map: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20000/20000 [00:08<00:00, 2291.00 examples/s]
+Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2000/2000 [00:00<00:00, 2078.93 examples/s]
+Loading base model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+trainable params: 5,636,096 || all params: 1,241,450,496 || trainable%: 0.4540
+The model is already on multiple devices. Skipping the move to device specified in `args`.
+Starting training...
+{'loss': 3.0815, 'grad_norm': 1.2702666521072388, 'learning_rate': 3.266666666666667e-05, 'epoch': 0.01}
+{'loss': 2.3002, 'grad_norm': 1.2099188566207886, 'learning_rate': 6.6e-05, 'epoch': 0.02}
+{'loss': 2.1578, 'grad_norm': 0.8971291184425354, 'learning_rate': 9.933333333333334e-05, 'epoch': 0.03}
+{'loss': 2.0922, 'grad_norm': 0.8432288765907288, 'learning_rate': 9.997481673839124e-05, 'epoch': 0.04}
+{'loss': 2.0499, 'grad_norm': 0.8676436543464661, 'learning_rate': 9.989722728463344e-05, 'epoch': 0.05}
+{'loss': 2.0199, 'grad_norm': 0.7689481973648071, 'learning_rate': 9.976730252981355e-05, 'epoch': 0.06}
+{'loss': 2.002, 'grad_norm': 0.8485589623451233, 'learning_rate': 9.958517874705793e-05, 'epoch': 0.07}
+{'loss': 2.0118, 'grad_norm': 0.9115418195724487, 'learning_rate': 9.935104695906506e-05, 'epoch': 0.08}
+{'loss': 2.0182, 'grad_norm': 0.8293371796607971, 'learning_rate': 9.906515273774902e-05, 'epoch': 0.09}
+{'loss': 1.9816, 'grad_norm': 0.7428322434425354, 'learning_rate': 9.872779594666855e-05, 'epoch': 0.1}
+{'loss': 2.0629, 'grad_norm': 0.7872318029403687, 'learning_rate': 9.833933042651156e-05, 'epoch': 0.11}
+{'loss': 2.0191, 'grad_norm': 0.7476586699485779, 'learning_rate': 9.790016362396505e-05, 'epoch': 0.12}
+{'loss': 1.9913, 'grad_norm': 0.8174682855606079, 'learning_rate': 9.741075616435995e-05, 'epoch': 0.13}
+{'loss': 1.9578, 'grad_norm': 0.8536948561668396, 'learning_rate': 9.687162136853857e-05, 'epoch': 0.14}
+{'loss': 2.008, 'grad_norm': 0.7284804582595825, 'learning_rate': 9.628332471445206e-05, 'epoch': 0.15}
+{'loss': 1.9908, 'grad_norm': 0.717830240726471, 'learning_rate': 9.564648324405206e-05, 'epoch': 0.16}
+{'loss': 2.0085, 'grad_norm': 0.6652103662490845, 'learning_rate': 9.496176491609893e-05, 'epoch': 0.17}
+{'loss': 1.9933, 'grad_norm': 0.7854238748550415, 'learning_rate': 9.422988790556523e-05, 'epoch': 0.18}
+{'loss': 1.9579, 'grad_norm': 0.8195900321006775, 'learning_rate': 9.345161985036937e-05, 'epoch': 0.19}
+{'loss': 1.9967, 'grad_norm': 0.9530158042907715, 'learning_rate': 9.262777704622938e-05, 'epoch': 0.2}
+{'loss': 1.9931, 'grad_norm': 0.789946973323822, 'learning_rate': 9.175922359048155e-05, 'epoch': 0.21}
+{'loss': 1.9895, 'grad_norm': 0.7527139186859131, 'learning_rate': 9.084687047576148e-05, 'epoch': 0.22}
+{'loss': 1.9938, 'grad_norm': 0.7133385539054871, 'learning_rate': 8.989167463449875e-05, 'epoch': 0.23}
+{'loss': 1.9669, 'grad_norm': 0.8821566104888916, 'learning_rate': 8.889463793522687e-05, 'epoch': 0.24}
+{'loss': 1.9685, 'grad_norm': 0.8035301566123962, 'learning_rate': 8.785680613176153e-05, 'epoch': 0.25}
+{'loss': 1.9745, 'grad_norm': 0.799748957157135, 'learning_rate': 8.677926776634933e-05, 'epoch': 0.26}
+{'loss': 1.9778, 'grad_norm': 0.7799690365791321, 'learning_rate': 8.566315302793717e-05, 'epoch': 0.27}
+{'loss': 1.9343, 'grad_norm': 0.7426393628120422, 'learning_rate': 8.450963256676026e-05, 'epoch': 0.28}
+{'loss': 2.0163, 'grad_norm': 0.8258002996444702, 'learning_rate': 8.331991626649149e-05, 'epoch': 0.29}
+{'loss': 1.9462, 'grad_norm': 0.8350090980529785, 'learning_rate': 8.209525197524074e-05, 'epoch': 0.3}
+{'loss': 1.9965, 'grad_norm': 0.8968029618263245, 'learning_rate': 8.083692419673437e-05, 'epoch': 0.31}
+{'loss': 1.971, 'grad_norm': 0.7634229063987732, 'learning_rate': 7.954625274304821e-05, 'epoch': 0.32}
+{'loss': 1.9246, 'grad_norm': 0.8467143177986145, 'learning_rate': 7.822459135030709e-05, 'epoch': 0.33}
+{'loss': 2.0114, 'grad_norm': 0.680512011051178, 'learning_rate': 7.687332625880237e-05, 'epoch': 0.34}
+{'loss': 1.972, 'grad_norm': 0.8528739809989929, 'learning_rate': 7.549387475901746e-05, 'epoch': 0.35}
+{'loss': 2.0177, 'grad_norm': 0.7972906827926636, 'learning_rate': 7.408768370508576e-05, 'epoch': 0.36}
+{'loss': 1.9812, 'grad_norm': 0.7545633316040039, 'learning_rate': 7.265622799724049e-05, 'epoch': 0.37}
+{'loss': 1.9395, 'grad_norm': 0.7572285532951355, 'learning_rate': 7.120100903484797e-05, 'epoch': 0.38}
+{'loss': 1.9472, 'grad_norm': 0.8101140260696411, 'learning_rate': 6.972355314164705e-05, 'epoch': 0.39}
+{'loss': 1.9199, 'grad_norm': 0.7434409260749817, 'learning_rate': 6.822540996484631e-05, 'epoch': 0.4}
+{'loss': 1.9942, 'grad_norm': 0.7290966510772705, 'learning_rate': 6.670815084975807e-05, 'epoch': 0.41}
+{'loss': 1.9802, 'grad_norm': 0.6408395767211914, 'learning_rate': 6.517336719167421e-05, 'epoch': 0.42}
+{'loss': 1.9362, 'grad_norm': 0.7972189784049988, 'learning_rate': 6.362266876671217e-05, 'epoch': 0.43}
+{'loss': 1.9805, 'grad_norm': 0.9031025767326355, 'learning_rate': 6.205768204338221e-05, 'epoch': 0.44}
+{'loss': 1.9698, 'grad_norm': 0.7609568238258362, 'learning_rate': 6.048004847664649e-05, 'epoch': 0.45}
+{'loss': 1.9768, 'grad_norm': 0.7557972073554993, 'learning_rate': 5.8891422786259435e-05, 'epoch': 0.46}
+{'loss': 1.9659, 'grad_norm': 0.8179367780685425, 'learning_rate': 5.7293471221195326e-05, 'epoch': 0.47}
+{'loss': 1.9675, 'grad_norm': 0.8654365539550781, 'learning_rate': 5.568786981198315e-05, 'epoch': 0.48}
+{'loss': 1.9365, 'grad_norm': 0.7224928140640259, 'learning_rate': 5.407630261278197e-05, 'epoch': 0.49}
+{'loss': 2.0258, 'grad_norm': 0.6723860502243042, 'learning_rate': 5.246045993504083e-05, 'epoch': 0.5}
+{'loss': 1.9319, 'grad_norm': 0.6352041959762573, 'learning_rate': 5.084203657459529e-05, 'epoch': 0.51}
+{'loss': 1.9779, 'grad_norm': 0.9686484932899475, 'learning_rate': 4.922273003406067e-05, 'epoch': 0.52}
+{'loss': 1.8934, 'grad_norm': 0.9037400484085083, 'learning_rate': 4.760423874238633e-05, 'epoch': 0.53}
+{'loss': 2.0205, 'grad_norm': 0.779926061630249, 'learning_rate': 4.598826027343809e-05, 'epoch': 0.54}
+{'loss': 1.9823, 'grad_norm': 0.7012258768081665, 'learning_rate': 4.437648956547772e-05, 'epoch': 0.55}
+{'loss': 1.9631, 'grad_norm': 0.851956844329834, 'learning_rate': 4.277061714340683e-05, 'epoch': 0.56}
+{'loss': 1.9419, 'grad_norm': 0.8017446398735046, 'learning_rate': 4.117232734563959e-05, 'epoch': 0.57}
+{'loss': 1.9385, 'grad_norm': 0.8067812323570251, 'learning_rate': 3.958329655746435e-05, 'epoch': 0.58}
+{'loss': 1.9649, 'grad_norm': 0.7590497732162476, 'learning_rate': 3.800519145274705e-05, 'epoch': 0.59}
+{'loss': 1.9526, 'grad_norm': 0.8500679135322571, 'learning_rate': 3.6439667245820345e-05, 'epoch': 0.6}
+{'loss': 1.8626, 'grad_norm': 0.6882540583610535, 'learning_rate': 3.488836595539243e-05, 'epoch': 0.61}
+{'loss': 1.9222, 'grad_norm': 0.7955731153488159, 'learning_rate': 3.335291468229624e-05, 'epoch': 0.62}
+{'loss': 1.9526, 'grad_norm': 0.7986685037612915, 'learning_rate': 3.1834923902885146e-05, 'epoch': 0.63}
+{'loss': 1.9543, 'grad_norm': 0.791796863079071, 'learning_rate': 3.033598577986586e-05, 'epoch': 0.64}
+{'loss': 1.9562, 'grad_norm': 0.787139356136322, 'learning_rate': 2.8857672492339537e-05, 'epoch': 0.65}
+{'loss': 1.9188, 'grad_norm': 0.8159933686256409, 'learning_rate': 2.7401534586802957e-05, 'epoch': 0.66}
+{'loss': 1.9273, 'grad_norm': 0.7117078900337219, 'learning_rate': 2.5969099350839467e-05, 'epoch': 0.67}
+{'loss': 1.9622, 'grad_norm': 0.6928632855415344, 'learning_rate': 2.4561869211205126e-05, 'epoch': 0.68}
+{'loss': 1.9671, 'grad_norm': 0.81122887134552, 'learning_rate': 2.318132015799055e-05, 'epoch': 0.69}
+{'loss': 1.9407, 'grad_norm': 0.7007768750190735, 'learning_rate': 2.1828900196511126e-05, 'epoch': 0.7}
+{'loss': 1.9833, 'grad_norm': 0.8472369909286499, 'learning_rate': 2.0506027828549378e-05, 'epoch': 0.71}
+{'loss': 1.9524, 'grad_norm': 0.8383484482765198, 'learning_rate': 1.9214090564542498e-05, 'epoch': 0.72}
+{'loss': 1.9911, 'grad_norm': 0.8774979114532471, 'learning_rate': 1.7954443468275483e-05, 'epoch': 0.73}
+{'loss': 1.9901, 'grad_norm': 0.7369871139526367, 'learning_rate': 1.6728407735606315e-05, 'epoch': 0.74}
+{'loss': 2.0158, 'grad_norm': 0.7539278864860535, 'learning_rate': 1.5537269308714076e-05, 'epoch': 0.75}
+{'loss': 1.9471, 'grad_norm': 0.7737093567848206, 'learning_rate': 1.4382277527323034e-05, 'epoch': 0.76}
+{'loss': 1.9196, 'grad_norm': 0.8246100544929504, 'learning_rate': 1.3264643818317835e-05, 'epoch': 0.77}
+{'loss': 1.9813, 'grad_norm': 0.8155240416526794, 'learning_rate': 1.2185540425124059e-05, 'epoch': 0.78}
+{'loss': 1.9693, 'grad_norm': 0.7332051992416382, 'learning_rate': 1.1146099178186681e-05, 'epoch': 0.79}
+{'loss': 2.0022, 'grad_norm': 0.7496898174285889, 'learning_rate': 1.014741030783618e-05, 'epoch': 0.8}
+{'loss': 1.9206, 'grad_norm': 0.7130956649780273, 'learning_rate': 9.190521300787624e-06, 'epoch': 0.81}
+{'loss': 1.8352, 'grad_norm': 0.7443212866783142, 'learning_rate': 8.276435801471616e-06, 'epoch': 0.82}
+{'loss': 1.9319, 'grad_norm': 0.8362042307853699, 'learning_rate': 7.406112559349887e-06, 'epoch': 0.83}
+{'loss': 1.9886, 'grad_norm': 0.699338972568512, 'learning_rate': 6.580464423319637e-06, 'epoch': 0.84}
+{'loss': 1.9457, 'grad_norm': 0.7111756801605225, 'learning_rate': 5.800357384260951e-06, 'epoch': 0.85}
+{'loss': 1.9392, 'grad_norm': 0.7058845162391663, 'learning_rate': 5.0666096667319915e-06, 'epoch': 0.86}
+{'loss': 1.9533, 'grad_norm': 0.7542308568954468, 'learning_rate': 4.3799908707645e-06, 'epoch': 0.87}
+{'loss': 1.9726, 'grad_norm': 0.662941575050354, 'learning_rate': 3.7412211646595307e-06, 'epoch': 0.88}
+{'loss': 1.9114, 'grad_norm': 0.712532639503479, 'learning_rate': 3.150970529630415e-06, 'epoch': 0.89}
+{'loss': 2.0073, 'grad_norm': 0.7559067010879517, 'learning_rate': 2.609858057085013e-06, 'epoch': 0.9}
+{'loss': 1.9011, 'grad_norm': 0.6840133666992188, 'learning_rate': 2.118451299284213e-06, 'epoch': 0.91}
+{'loss': 1.9749, 'grad_norm': 0.8719570636749268, 'learning_rate': 1.6772656740580872e-06, 'epoch': 0.92}
+{'loss': 1.9055, 'grad_norm': 0.9879964590072632, 'learning_rate': 1.2867639242037433e-06, 'epoch': 0.93}
+{'loss': 1.9647, 'grad_norm': 0.9161092638969421, 'learning_rate': 9.473556321319688e-07, 'epoch': 0.94}
+{'loss': 1.9526, 'grad_norm': 0.8352959752082825, 'learning_rate': 6.593967902719044e-07, 'epoch': 0.95}
+{'loss': 1.8991, 'grad_norm': 0.7140271663665771, 'learning_rate': 4.231894276841508e-07, 'epoch': 0.96}
+{'loss': 1.9292, 'grad_norm': 1.100149393081665, 'learning_rate': 2.3898129327392105e-07, 'epoch': 0.97}
+{'loss': 1.9467, 'grad_norm': 0.8323132991790771, 'learning_rate': 1.0696559593672551e-07, 'epoch': 0.98}
+{'loss': 1.9153, 'grad_norm': 0.8046440482139587, 'learning_rate': 2.728080190889659e-08, 'epoch': 0.99}
+{'loss': 1.9292, 'grad_norm': 0.7476497888565063, 'learning_rate': 1.0489535612334677e-11, 'epoch': 1.0}
+{'train_runtime': 6832.1081, 'train_samples_per_second': 2.927, 'train_steps_per_second': 0.732, 'train_loss': 1.982838478088379, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5000/5000 [1:53:52<00:00,  1.37s/it]
+Saving LoRA adapter to llama32_1b_study_lora_final-1
+Done.
+
+(llmtrain) D:\Fine-tuning\local>python test_inference.py
+Loading tokenizer...
+Loading LoRA fine-tuned model...
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+
+=== MODEL ANSWER ===
+
+Newton's first law states that an object will always move in a straight line unless it is acted upon by an external force. This means that objects will always follow a path unless they are pushed or pulled in a different direction. Newton's first law is a fundamental principle of physics that helps us understand how the world works. It is a simple yet powerful idea that helps us make sense of the world around us. It is a principle that is essential to understanding the laws of motion and the behavior of objects in the universe. It is a principle that is essential to understanding the laws of motion and the behavior of objects in the universe. It is a principle that is essential to understanding the laws of motion and the behavior of objects in the universe. It is a principle that is essential to understanding the laws of
+
+====================
+
+
+(llmtrain) D:\Fine-tuning\local>python test_inference.py
+Loading tokenizer...
+Loading LoRA fine-tuned model from llama32_1b_study_lora_final...
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+
+=== MODEL ANSWER ===
+
+Newton's first law states that an object will remain in motion unless it is acted upon by an external force, such as friction or air resistance. This means that objects will continue to move until they come into contact with another object or until they are no longer being acted upon by an external force. It also states that objects will always tend towards equilibrium, meaning that they will eventually come to rest if they are not being acted upon by an external force. This law helps us understand how things behave in the real world. It explains why things like cars and bicycles can stop moving, even though they may be
+
+====================
+
+
+(llmtrain) D:\Fine-tuning\local>python merge_lora.py --device auto --dtype fp16
+Loading base model (meta-llama/Llama-3.2-1B-Instruct) on cuda ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading LoRA adapter from llama32_1b_study_lora_final-1 ...
+Merging LoRA into base weights...
+Moving merged model back to CPU for saving...
+Saving merged model to llama32_1b_study_merged ...
+Saving tokenizer (for convenience)...
+Done.
+
+(llmtrain) D:\Fine-tuning\local>cd D:\Fine-tuning
+
+(llmtrain) D:\Fine-tuning>git clone https://github.com/ggerganov/llama.cpp.git
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning>cd llama.cpp
+The system cannot find the path specified.
+
+(llmtrain) D:\Fine-tuning>cd D:\Fine-tuning
+
+(llmtrain) D:\Fine-tuning>git clone https://github.com/ggerganov/llama.cpp.git
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning>pip install git
+ERROR: Could not find a version that satisfies the requirement git (from versions: none)
+ERROR: No matching distribution found for git
+
+(llmtrain) D:\Fine-tuning>cd llama.cpp
+
+(llmtrain) D:\Fine-tuning\llama.cpp>cdc ..
+'cdc' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning\llama.cpp>cd ..
+
+(llmtrain) D:\Fine-tuning>cd llama.cpp-master
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>pip install -r requirements.txt
+Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cpu, https://download.pytorch.org/whl/nightly, https://download.pytorch.org/whl/cpu, https://download.pytorch.org/whl/nightly, https://download.pytorch.org/whl/cpu, https://download.pytorch.org/whl/nightly
+Ignoring torch: markers 'platform_machine == "s390x"' don't match your environment
+Ignoring torch: markers 'platform_machine == "s390x"' don't match your environment
+Collecting numpy~=1.26.4 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 1))
+  Downloading https://download.pytorch.org/whl/nightly/numpy-1.26.4-cp310-cp310-win_amd64.whl (15.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.8/15.8 MB 10.5 MB/s  0:00:01
+Requirement already satisfied: sentencepiece~=0.2.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 2)) (0.2.1)
+Requirement already satisfied: transformers<5.0.0,>=4.57.1 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 4)) (4.57.3)
+Collecting gguf>=0.1.0 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 6))
+  Downloading https://download.pytorch.org/whl/nightly/gguf-0.17.1-py3-none-any.whl.metadata (4.3 kB)
+Collecting protobuf<5.0.0,>=4.21.0 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 7))
+  Downloading protobuf-4.25.8-cp310-abi3-win_amd64.whl.metadata (541 bytes)
+Collecting torch~=2.6.0 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_hf_to_gguf.txt (line 5))
+  Downloading https://download.pytorch.org/whl/cpu/torch-2.6.0%2Bcpu-cp310-cp310-win_amd64.whl.metadata (28 kB)
+Collecting aiohttp~=3.9.3 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 1))
+  Downloading https://download.pytorch.org/whl/nightly/aiohttp-3.9.5-cp310-cp310-win_amd64.whl (370 kB)
+Collecting pytest~=8.3.3 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 2))
+  Downloading pytest-8.3.5-py3-none-any.whl.metadata (7.6 kB)
+Requirement already satisfied: huggingface_hub<1.0,>=0.34.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 3)) (0.36.0)
+Collecting matplotlib~=3.10.0 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 4))
+  Downloading matplotlib-3.10.7-cp310-cp310-win_amd64.whl.metadata (11 kB)
+Collecting openai~=1.55.3 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6))
+  Downloading openai-1.55.3-py3-none-any.whl.metadata (24 kB)
+Collecting pandas~=2.2.3 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 7))
+  Downloading https://download.pytorch.org/whl/nightly/pandas-2.2.3-cp310-cp310-win_amd64.whl (11.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 7.4 MB/s  0:00:01
+Collecting prometheus-client~=0.20.0 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 8))
+  Downloading prometheus_client-0.20.0-py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: requests~=2.32.3 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 9)) (2.32.5)
+Collecting wget~=3.2 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 10))
+  Downloading wget-3.2.zip (10 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting typer~=0.15.1 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 11))
+  Downloading typer-0.15.4-py3-none-any.whl.metadata (15 kB)
+Collecting seaborn~=0.13.2 (from -r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 12))
+  Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Requirement already satisfied: filelock in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from transformers<5.0.0,>=4.57.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 4)) (3.19.1)
+Requirement already satisfied: packaging>=20.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from transformers<5.0.0,>=4.57.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 4)) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from transformers<5.0.0,>=4.57.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 4)) (6.0.3)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from transformers<5.0.0,>=4.57.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 4)) (2025.11.3)
+Requirement already satisfied: tokenizers<=0.23.0,>=0.22.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from transformers<5.0.0,>=4.57.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 4)) (0.22.1)
+Requirement already satisfied: safetensors>=0.4.3 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from transformers<5.0.0,>=4.57.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 4)) (0.7.0)
+Requirement already satisfied: tqdm>=4.27 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from transformers<5.0.0,>=4.57.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_legacy_llama.txt (line 4)) (4.67.1)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from torch~=2.6.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_hf_to_gguf.txt (line 5)) (4.15.0)
+Requirement already satisfied: networkx in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from torch~=2.6.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_hf_to_gguf.txt (line 5)) (3.3)
+Requirement already satisfied: jinja2 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from torch~=2.6.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_hf_to_gguf.txt (line 5)) (3.1.6)
+Requirement already satisfied: fsspec in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from torch~=2.6.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_hf_to_gguf.txt (line 5)) (2025.9.0)
+Requirement already satisfied: sympy==1.13.1 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from torch~=2.6.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_hf_to_gguf.txt (line 5)) (1.13.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from sympy==1.13.1->torch~=2.6.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_hf_to_gguf.txt (line 5)) (1.3.0)
+Requirement already satisfied: aiosignal>=1.1.2 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from aiohttp~=3.9.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 1)) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from aiohttp~=3.9.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 1)) (25.4.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from aiohttp~=3.9.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 1)) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from aiohttp~=3.9.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 1)) (6.7.0)
+Requirement already satisfied: yarl<2.0,>=1.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from aiohttp~=3.9.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 1)) (1.22.0)
+Collecting async-timeout<5.0,>=4.0 (from aiohttp~=3.9.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 1))
+  Downloading https://download.pytorch.org/whl/nightly/async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Requirement already satisfied: colorama in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from pytest~=8.3.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 2)) (0.4.6)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from pytest~=8.3.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 2)) (1.3.1)
+Collecting iniconfig (from pytest~=8.3.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 2))
+  Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting pluggy<2,>=1.5 (from pytest~=8.3.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 2))
+  Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting tomli>=1 (from pytest~=8.3.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 2))
+  Downloading tomli-2.3.0-py3-none-any.whl.metadata (10 kB)
+Collecting contourpy>=1.0.1 (from matplotlib~=3.10.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 4))
+  Downloading contourpy-1.3.2-cp310-cp310-win_amd64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib~=3.10.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 4))
+  Downloading https://download.pytorch.org/whl/nightly/cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting fonttools>=4.22.0 (from matplotlib~=3.10.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 4))
+  Downloading fonttools-4.61.0-cp310-cp310-win_amd64.whl.metadata (115 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib~=3.10.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 4))
+  Downloading kiwisolver-1.4.9-cp310-cp310-win_amd64.whl.metadata (6.4 kB)
+Requirement already satisfied: pillow>=8 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from matplotlib~=3.10.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 4)) (11.3.0)
+Collecting pyparsing>=3 (from matplotlib~=3.10.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 4))
+  Downloading pyparsing-3.2.5-py3-none-any.whl.metadata (5.0 kB)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from matplotlib~=3.10.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 4)) (2.9.0.post0)
+Requirement already satisfied: anyio<5,>=3.5.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6)) (4.11.0)
+Collecting distro<2,>=1.7.0 (from openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6))
+  Downloading https://download.pytorch.org/whl/nightly/distro-1.9.0-py3-none-any.whl.metadata (6.8 kB)
+Requirement already satisfied: httpx<1,>=0.23.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6)) (0.28.1)
+Collecting jiter<1,>=0.4.0 (from openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6))
+  Downloading jiter-0.12.0-cp310-cp310-win_amd64.whl.metadata (5.3 kB)
+Collecting pydantic<3,>=1.9.0 (from openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6))
+  Downloading pydantic-2.12.5-py3-none-any.whl.metadata (90 kB)
+Requirement already satisfied: sniffio in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6)) (1.3.1)
+Requirement already satisfied: pytz>=2020.1 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from pandas~=2.2.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 7)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from pandas~=2.2.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 7)) (2025.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from requests~=2.32.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 9)) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from requests~=2.32.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 9)) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from requests~=2.32.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 9)) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from requests~=2.32.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 9)) (2025.11.12)
+Collecting click<8.2,>=8.0.0 (from typer~=0.15.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 11))
+  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Collecting shellingham>=1.3.0 (from typer~=0.15.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 11))
+  Downloading https://download.pytorch.org/whl/nightly/shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=10.11.0 (from typer~=0.15.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 11))
+  Downloading rich-14.2.0-py3-none-any.whl.metadata (18 kB)
+Requirement already satisfied: httpcore==1.* in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from httpx<1,>=0.23.0->openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6)) (1.0.9)
+Requirement already satisfied: h11>=0.16 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from httpcore==1.*->httpx<1,>=0.23.0->openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6)) (0.16.0)
+Collecting annotated-types>=0.6.0 (from pydantic<3,>=1.9.0->openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6))
+  Downloading https://download.pytorch.org/whl/nightly/annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.41.5 (from pydantic<3,>=1.9.0->openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6))
+  Downloading pydantic_core-2.41.5-cp310-cp310-win_amd64.whl.metadata (7.4 kB)
+Collecting typing-inspection>=0.4.2 (from pydantic<3,>=1.9.0->openai~=1.55.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 6))
+  Downloading typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: propcache>=0.2.1 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from yarl<2.0,>=1.0->aiohttp~=3.9.3->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 1)) (0.4.1)
+Requirement already satisfied: six>=1.5 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from python-dateutil>=2.7->matplotlib~=3.10.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 4)) (1.17.0)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.11.0->typer~=0.15.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 11))
+  Downloading https://download.pytorch.org/whl/nightly/markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.11.0->typer~=0.15.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 11))
+  Downloading https://download.pytorch.org/whl/nightly/pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.11.0->typer~=0.15.1->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-tool_bench.txt (line 11))
+  Downloading https://download.pytorch.org/whl/nightly/mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\aakas\miniconda3\envs\llmtrain\lib\site-packages (from jinja2->torch~=2.6.0->-r D:\Fine-tuning\llama.cpp-master\requirements\requirements-convert_hf_to_gguf.txt (line 5)) (2.1.5)
+Downloading protobuf-4.25.8-cp310-abi3-win_amd64.whl (413 kB)
+Downloading https://download.pytorch.org/whl/cpu/torch-2.6.0%2Bcpu-cp310-cp310-win_amd64.whl (206.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 206.5/206.5 MB 14.1 MB/s  0:00:14
+Downloading pytest-8.3.5-py3-none-any.whl (343 kB)
+Downloading matplotlib-3.10.7-cp310-cp310-win_amd64.whl (8.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.1/8.1 MB 6.4 MB/s  0:00:01
+Downloading openai-1.55.3-py3-none-any.whl (389 kB)
+Downloading prometheus_client-0.20.0-py3-none-any.whl (54 kB)
+Downloading typer-0.15.4-py3-none-any.whl (45 kB)
+Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+Downloading click-8.1.8-py3-none-any.whl (98 kB)
+Downloading https://download.pytorch.org/whl/nightly/distro-1.9.0-py3-none-any.whl (20 kB)
+Downloading jiter-0.12.0-cp310-cp310-win_amd64.whl (204 kB)
+Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+Downloading pydantic-2.12.5-py3-none-any.whl (463 kB)
+Downloading pydantic_core-2.41.5-cp310-cp310-win_amd64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 5.1 MB/s  0:00:00
+Downloading https://download.pytorch.org/whl/nightly/gguf-0.17.1-py3-none-any.whl (96 kB)
+Downloading https://download.pytorch.org/whl/nightly/annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading contourpy-1.3.2-cp310-cp310-win_amd64.whl (221 kB)
+Downloading fonttools-4.61.0-cp310-cp310-win_amd64.whl (1.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 10.3 MB/s  0:00:00
+Downloading kiwisolver-1.4.9-cp310-cp310-win_amd64.whl (73 kB)
+Downloading pyparsing-3.2.5-py3-none-any.whl (113 kB)
+Downloading rich-14.2.0-py3-none-any.whl (243 kB)
+Downloading https://download.pytorch.org/whl/nightly/pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 20.5 MB/s  0:00:00
+Downloading https://download.pytorch.org/whl/nightly/markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+Downloading https://download.pytorch.org/whl/nightly/mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading https://download.pytorch.org/whl/nightly/shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading tomli-2.3.0-py3-none-any.whl (14 kB)
+Downloading typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Downloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+Building wheels for collected packages: wget
+  Building wheel for wget (pyproject.toml) ... done
+  Created wheel for wget: filename=wget-3.2-py3-none-any.whl size=9712 sha256=5005b16de87b2785abc6001f99fd5d4608a50249ca44193172b74852dccb63b6
+  Stored in directory: c:\users\aakas\appdata\local\pip\cache\wheels\8b\f1\7f\5c94f0a7a505ca1c81cd1d9208ae2064675d97582078e6c769
+Successfully built wget
+Installing collected packages: wget, typing-inspection, tomli, shellingham, pyparsing, pygments, pydantic-core, protobuf, prometheus-client, pluggy, numpy, mdurl, kiwisolver, jiter, iniconfig, fonttools, distro, cycler, click, async-timeout, annotated-types, torch, pytest, pydantic, pandas, markdown-it-py, gguf, contourpy, rich, matplotlib, aiohttp, typer, seaborn, openai
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 6.33.1
+    Uninstalling protobuf-6.33.1:
+      Successfully uninstalled protobuf-6.33.1
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.1.2
+    Uninstalling numpy-2.1.2:
+      Successfully uninstalled numpy-2.1.2
+  Attempting uninstall: async-timeout
+    Found existing installation: async-timeout 5.0.1
+    Uninstalling async-timeout-5.0.1:
+      Successfully uninstalled async-timeout-5.0.1
+  Attempting uninstall: torch
+    Found existing installation: torch 2.5.1+cu121
+    Uninstalling torch-2.5.1+cu121:
+      Successfully uninstalled torch-2.5.1+cu121
+  Attempting uninstall: pandas
+    Found existing installation: pandas 2.3.3
+    Uninstalling pandas-2.3.3:
+      Successfully uninstalled pandas-2.3.3
+  Attempting uninstall: aiohttp
+    Found existing installation: aiohttp 3.13.2
+    Uninstalling aiohttp-3.13.2:
+      Successfully uninstalled aiohttp-3.13.2
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torchaudio 2.5.1+cu121 requires torch==2.5.1+cu121, but you have torch 2.6.0+cpu which is incompatible.
+torchvision 0.20.1+cu121 requires torch==2.5.1+cu121, but you have torch 2.6.0+cpu which is incompatible.
+Successfully installed aiohttp-3.9.5 annotated-types-0.7.0 async-timeout-4.0.3 click-8.1.8 contourpy-1.3.2 cycler-0.12.1 distro-1.9.0 fonttools-4.61.0 gguf-0.17.1 iniconfig-2.3.0 jiter-0.12.0 kiwisolver-1.4.9 markdown-it-py-4.0.0 matplotlib-3.10.7 mdurl-0.1.2 numpy-1.26.4 openai-1.55.3 pandas-2.2.3 pluggy-1.6.0 prometheus-client-0.20.0 protobuf-4.25.8 pydantic-2.12.5 pydantic-core-2.41.5 pygments-2.19.2 pyparsing-3.2.5 pytest-8.3.5 rich-14.2.0 seaborn-0.13.2 shellingham-1.5.4 tomli-2.3.0 torch-2.6.0+cpu typer-0.15.4 typing-inspection-0.4.2 wget-3.2
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>python convert_hf_to_gguf.py ^
+More?   --outtype f16 ^
+More?   --outfile ..\llama32_1b_study_merged.gguf ^
+More?   ..\llama32_1b_study_merged
+ERROR:hf-to-gguf:Error: ..\llama32_1b_study_merged is not a directory
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>
+(llmtrain) D:\Fine-tuning\llama.cpp-master>python convert_hf_to_gguf.py ^ --outtype f16 ^ --outfile ..\llama32_1b_study_merged.gguf ^ ..\llama32_1b_study_merged
+ERROR:hf-to-gguf:Error: ..\llama32_1b_study_merged is not a directory
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>python convert_hf_to_gguf.py ^ --outtype f16  --outfile ..\llama32_1b_study_merged.gguf  ..\llama32_1b_study_merged
+ERROR:hf-to-gguf:Error: ..\llama32_1b_study_merged is not a directory
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>   python convert_hf_to_gguf.py `
+Traceback (most recent call last):
+  File "D:\Fine-tuning\llama.cpp-master\convert_hf_to_gguf.py", line 19, in <module>
+    from transformers import AutoConfig
+  File "<frozen importlib._bootstrap>", line 1075, in _handle_fromlist
+  File "C:\Users\aakas\miniconda3\envs\llmtrain\lib\site-packages\transformers\utils\import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "C:\Users\aakas\miniconda3\envs\llmtrain\lib\site-packages\transformers\utils\import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "C:\Users\aakas\miniconda3\envs\llmtrain\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "C:\Users\aakas\miniconda3\envs\llmtrain\lib\site-packages\transformers\models\__init__.py", line 396, in <module>
+    sys.modules[__name__] = _LazyModule(__name__, _file, define_import_structure(_file), module_spec=__spec__)
+  File "C:\Users\aakas\miniconda3\envs\llmtrain\lib\site-packages\transformers\utils\import_utils.py", line 2867, in define_import_structure
+    import_structure = create_import_structure_from_path(module_path)
+  File "C:\Users\aakas\miniconda3\envs\llmtrain\lib\site-packages\transformers\utils\import_utils.py", line 2580, in create_import_structure_from_path
+    import_structure[f] = create_import_structure_from_path(os.path.join(module_path, f))
+  File "C:\Users\aakas\miniconda3\envs\llmtrain\lib\site-packages\transformers\utils\import_utils.py", line 2604, in create_import_structure_from_path
+    with open(os.path.join(directory, module_name), encoding="utf-8") as f:
+  File "C:\Users\aakas\miniconda3\envs\llmtrain\lib\codecs.py", line 309, in __init__
+    def __init__(self, errors='strict'):
+KeyboardInterrupt
+^C
+(llmtrain) D:\Fine-tuning\llama.cpp-master>     --outtype f16 `
+'--outtype' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>     --outfile D:\Fine-tuning\llama32_1b_study_merged.gguf `
+'--outfile' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>     D:\Fine-tuning\llama32_1b_study_merged
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>python convert_hf_to_gguf.py ` --outtype f16 ` --outfile D:\Fine-tuning\llama32_1b_study_merged.gguf ` D:\Fine-tuning\llama32_1b_study_merged
+usage: convert_hf_to_gguf.py [-h] [--vocab-only] [--outfile OUTFILE] [--outtype {f32,f16,bf16,q8_0,tq1_0,tq2_0,auto}] [--bigendian] [--use-temp-file] [--no-lazy]
+                             [--model-name MODEL_NAME] [--verbose] [--split-max-tensors SPLIT_MAX_TENSORS] [--split-max-size SPLIT_MAX_SIZE] [--dry-run]
+                             [--no-tensor-first-split] [--metadata METADATA] [--print-supported-models] [--remote] [--mmproj] [--mistral-format]
+                             [--disable-mistral-community-chat-template] [--sentence-transformers-dense-modules]
+                             [model]
+convert_hf_to_gguf.py: error: unrecognized arguments: ` ` D:\Fine-tuning\llama32_1b_study_merged
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>python convert_hf_to_gguf.py --outtype f16 --outfile "D:\Fine-tuning\llama32_1b_study_merged.gguf" "D:\Fine-tuning\llama32_1b_study_merged"
+ERROR:hf-to-gguf:Error: D:\Fine-tuning\llama32_1b_study_merged is not a directory
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>python convert_hf_to_gguf.py --outtype f16 --outfile "D:\Fine-tuning\llama32_1b_study_merged.gguf" "D:\Fine-tuning\local\llama32_1b_study_merged"
+INFO:hf-to-gguf:Loading model: llama32_1b_study_merged
+INFO:hf-to-gguf:Model architecture: LlamaForCausalLM
+INFO:hf-to-gguf:gguf: indexing model part 'model.safetensors'
+INFO:gguf.gguf_writer:gguf: This GGUF file is for Little Endian only
+INFO:hf-to-gguf:Exporting model...
+INFO:hf-to-gguf:rope_freqs.weight,           torch.float32 --> F32, shape = {32}
+INFO:hf-to-gguf:token_embd.weight,           torch.float16 --> F16, shape = {2048, 128256}
+INFO:hf-to-gguf:blk.0.attn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.0.ffn_down.weight,       torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.0.ffn_gate.weight,       torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.0.ffn_up.weight,         torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.0.ffn_norm.weight,       torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.0.attn_k.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.0.attn_output.weight,    torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.0.attn_q.weight,         torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.0.attn_v.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.1.attn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.1.ffn_down.weight,       torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.1.ffn_gate.weight,       torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.1.ffn_up.weight,         torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.1.ffn_norm.weight,       torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.1.attn_k.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.1.attn_output.weight,    torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.1.attn_q.weight,         torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.1.attn_v.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.10.attn_norm.weight,     torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.10.ffn_down.weight,      torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.10.ffn_gate.weight,      torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.10.ffn_up.weight,        torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.10.ffn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.10.attn_k.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.10.attn_output.weight,   torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.10.attn_q.weight,        torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.10.attn_v.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.11.attn_norm.weight,     torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.11.ffn_down.weight,      torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.11.ffn_gate.weight,      torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.11.ffn_up.weight,        torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.11.ffn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.11.attn_k.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.11.attn_output.weight,   torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.11.attn_q.weight,        torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.11.attn_v.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.12.attn_norm.weight,     torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.12.ffn_down.weight,      torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.12.ffn_gate.weight,      torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.12.ffn_up.weight,        torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.12.ffn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.12.attn_k.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.12.attn_output.weight,   torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.12.attn_q.weight,        torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.12.attn_v.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.13.attn_norm.weight,     torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.13.ffn_down.weight,      torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.13.ffn_gate.weight,      torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.13.ffn_up.weight,        torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.13.ffn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.13.attn_k.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.13.attn_output.weight,   torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.13.attn_q.weight,        torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.13.attn_v.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.14.attn_norm.weight,     torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.14.ffn_down.weight,      torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.14.ffn_gate.weight,      torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.14.ffn_up.weight,        torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.14.ffn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.14.attn_k.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.14.attn_output.weight,   torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.14.attn_q.weight,        torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.14.attn_v.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.15.attn_norm.weight,     torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.15.ffn_down.weight,      torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.15.ffn_gate.weight,      torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.15.ffn_up.weight,        torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.15.ffn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.15.attn_k.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.15.attn_output.weight,   torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.15.attn_q.weight,        torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.15.attn_v.weight,        torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.2.attn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.2.ffn_down.weight,       torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.2.ffn_gate.weight,       torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.2.ffn_up.weight,         torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.2.ffn_norm.weight,       torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.2.attn_k.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.2.attn_output.weight,    torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.2.attn_q.weight,         torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.2.attn_v.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.3.attn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.3.ffn_down.weight,       torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.3.ffn_gate.weight,       torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.3.ffn_up.weight,         torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.3.ffn_norm.weight,       torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.3.attn_k.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.3.attn_output.weight,    torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.3.attn_q.weight,         torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.3.attn_v.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.4.attn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.4.ffn_down.weight,       torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.4.ffn_gate.weight,       torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.4.ffn_up.weight,         torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.4.ffn_norm.weight,       torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.4.attn_k.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.4.attn_output.weight,    torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.4.attn_q.weight,         torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.4.attn_v.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.5.attn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.5.ffn_down.weight,       torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.5.ffn_gate.weight,       torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.5.ffn_up.weight,         torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.5.ffn_norm.weight,       torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.5.attn_k.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.5.attn_output.weight,    torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.5.attn_q.weight,         torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.5.attn_v.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.6.attn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.6.ffn_down.weight,       torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.6.ffn_gate.weight,       torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.6.ffn_up.weight,         torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.6.ffn_norm.weight,       torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.6.attn_k.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.6.attn_output.weight,    torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.6.attn_q.weight,         torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.6.attn_v.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.7.attn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.7.ffn_down.weight,       torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.7.ffn_gate.weight,       torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.7.ffn_up.weight,         torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.7.ffn_norm.weight,       torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.7.attn_k.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.7.attn_output.weight,    torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.7.attn_q.weight,         torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.7.attn_v.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.8.attn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.8.ffn_down.weight,       torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.8.ffn_gate.weight,       torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.8.ffn_up.weight,         torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.8.ffn_norm.weight,       torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.8.attn_k.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.8.attn_output.weight,    torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.8.attn_q.weight,         torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.8.attn_v.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.9.attn_norm.weight,      torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.9.ffn_down.weight,       torch.float16 --> F16, shape = {8192, 2048}
+INFO:hf-to-gguf:blk.9.ffn_gate.weight,       torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.9.ffn_up.weight,         torch.float16 --> F16, shape = {2048, 8192}
+INFO:hf-to-gguf:blk.9.ffn_norm.weight,       torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:blk.9.attn_k.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:blk.9.attn_output.weight,    torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.9.attn_q.weight,         torch.float16 --> F16, shape = {2048, 2048}
+INFO:hf-to-gguf:blk.9.attn_v.weight,         torch.float16 --> F16, shape = {2048, 512}
+INFO:hf-to-gguf:output_norm.weight,          torch.float16 --> F32, shape = {2048}
+INFO:hf-to-gguf:Set meta model
+INFO:hf-to-gguf:Set model parameters
+INFO:hf-to-gguf:gguf: context length = 131072
+INFO:hf-to-gguf:gguf: embedding length = 2048
+INFO:hf-to-gguf:gguf: feed forward length = 8192
+INFO:hf-to-gguf:gguf: head count = 32
+INFO:hf-to-gguf:gguf: key-value head count = 8
+INFO:hf-to-gguf:gguf: rope theta = 500000.0
+INFO:hf-to-gguf:gguf: rms norm epsilon = 1e-05
+INFO:hf-to-gguf:gguf: file type = 1
+INFO:hf-to-gguf:Set model quantization version
+INFO:hf-to-gguf:Set model tokenizer
+The tokenizer you are loading from 'D:\Fine-tuning\local\llama32_1b_study_merged' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+WARNING:gguf.vocab:Unknown separator token '<|begin_of_text|>' in TemplateProcessing<pair>
+INFO:gguf.vocab:Adding 280147 merge(s).
+INFO:gguf.vocab:Setting special token type bos to 128000
+INFO:gguf.vocab:Setting special token type eos to 128009
+INFO:gguf.vocab:Setting add_bos_token to True
+INFO:gguf.vocab:Setting add_sep_token to False
+INFO:gguf.vocab:Setting chat_template to {{- bos_token }}
+{%- if custom_tools is defined %}
+    {%- set tools = custom_tools %}
+{%- endif %}
+{%- if not tools_in_user_message is defined %}
+    {%- set tools_in_user_message = true %}
+{%- endif %}
+{%- if not date_string is defined %}
+    {%- if strftime_now is defined %}
+        {%- set date_string = strftime_now("%d %b %Y") %}
+    {%- else %}
+        {%- set date_string = "26 Jul 2024" %}
+    {%- endif %}
+{%- endif %}
+{%- if not tools is defined %}
+    {%- set tools = none %}
+{%- endif %}
+
+{#- This block extracts the system message, so we can slot it into the right place. #}
+{%- if messages[0]['role'] == 'system' %}
+    {%- set system_message = messages[0]['content']|trim %}
+    {%- set messages = messages[1:] %}
+{%- else %}
+    {%- set system_message = "" %}
+{%- endif %}
+
+{#- System message #}
+{{- "<|start_header_id|>system<|end_header_id|>\n\n" }}
+{%- if tools is not none %}
+    {{- "Environment: ipython\n" }}
+{%- endif %}
+{{- "Cutting Knowledge Date: December 2023\n" }}
+{{- "Today Date: " + date_string + "\n\n" }}
+{%- if tools is not none and not tools_in_user_message %}
+    {{- "You have access to the following functions. To call a function, please respond with JSON for a function call." }}
+    {{- 'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.' }}
+    {{- "Do not use variables.\n\n" }}
+    {%- for t in tools %}
+        {{- t | tojson(indent=4) }}
+        {{- "\n\n" }}
+    {%- endfor %}
+{%- endif %}
+{{- system_message }}
+{{- "<|eot_id|>" }}
+
+{#- Custom tools are passed in a user message with some extra guidance #}
+{%- if tools_in_user_message and not tools is none %}
+    {#- Extract the first user message so we can plug it in here #}
+    {%- if messages | length != 0 %}
+        {%- set first_user_message = messages[0]['content']|trim %}
+        {%- set messages = messages[1:] %}
+    {%- else %}
+        {{- raise_exception("Cannot put tools in the first user message when there's no first user message!") }}
+{%- endif %}
+    {{- '<|start_header_id|>user<|end_header_id|>\n\n' -}}
+    {{- "Given the following functions, please respond with a JSON for a function call " }}
+    {{- "with its proper arguments that best answers the given prompt.\n\n" }}
+    {{- 'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.' }}
+    {{- "Do not use variables.\n\n" }}
+    {%- for t in tools %}
+        {{- t | tojson(indent=4) }}
+        {{- "\n\n" }}
+    {%- endfor %}
+    {{- first_user_message + "<|eot_id|>"}}
+{%- endif %}
+
+{%- for message in messages %}
+    {%- if not (message.role == 'ipython' or message.role == 'tool' or 'tool_calls' in message) %}
+        {{- '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n\n'+ message['content'] | trim + '<|eot_id|>' }}
+    {%- elif 'tool_calls' in message %}
+        {%- if not message.tool_calls|length == 1 %}
+            {{- raise_exception("This model only supports single tool-calls at once!") }}
+        {%- endif %}
+        {%- set tool_call = message.tool_calls[0].function %}
+        {{- '<|start_header_id|>assistant<|end_header_id|>\n\n' -}}
+        {{- '{"name": "' + tool_call.name + '", ' }}
+        {{- '"parameters": ' }}
+        {{- tool_call.arguments | tojson }}
+        {{- "}" }}
+        {{- "<|eot_id|>" }}
+    {%- elif message.role == "tool" or message.role == "ipython" %}
+        {{- "<|start_header_id|>ipython<|end_header_id|>\n\n" }}
+        {%- if message.content is mapping or message.content is iterable %}
+            {{- message.content | tojson }}
+        {%- else %}
+            {{- message.content }}
+        {%- endif %}
+        {{- "<|eot_id|>" }}
+    {%- endif %}
+{%- endfor %}
+{%- if add_generation_prompt %}
+    {{- '<|start_header_id|>assistant<|end_header_id|>\n\n' }}
+{%- endif %}
+
+INFO:gguf.gguf_writer:Writing the following files:
+INFO:gguf.gguf_writer:D:\Fine-tuning\llama32_1b_study_merged.gguf: n_tensors = 147, total_size = 2.5G
+Writing: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2.47G/2.47G [00:01<00:00, 1.37Gbyte/s]
+INFO:hf-to-gguf:Model successfully exported to D:\Fine-tuning\llama32_1b_study_merged.gguf
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>cmake -B build
+'cmake' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>cmake -B build
+'cmake' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>cmake --version
+'cmake' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>cmake -B build
+'cmake' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>.\quantize.exe llama32-1b-study-finetune-f16.gguf llama32-1b-study-finetune-q4_k_l.gguf Q4_K_L
+'.\quantize.exe' is not recognized as an internal or external command,
+operable program or batch file.
+
+(llmtrain) D:\Fine-tuning\llama.cpp-master>D:\Fine-tuning\llama-cpp-prebuilt\llama-quantize.exe study-llama-1b-fp16.gguf study-llama-1b-q4_k_l.ggu
