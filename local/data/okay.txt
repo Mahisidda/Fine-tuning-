@@ -1,0 +1,8 @@
+| Purpose            | Dataset       | Size | Link                                                 |
+| ------------------ | ------------- | ---- | ---------------------------------------------------- |
+| Question Answering | SQuAD         | 100K | https://huggingface.co/datasets/squad                |
+| Summarization      | CNN/DailyMail | 287K | https://huggingface.co/datasets/cnn_dailymail        |
+| MCQ Generation     | EduQG         | 3.4K | https://huggingface.co/datasets/allenai/eduqg        |
+| Instructions       | Alpaca        | 52K  | https://huggingface.co/datasets/yahma/alpaca-cleaned |
+| Chat Format        | OpenAssistant | 660K | https://huggingface.co/datasets/OpenAssistant/oasst1 |
+| Conversational     | CoQA          | 127K | https://huggingface.co/datasets/coqa                 |

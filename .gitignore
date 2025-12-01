@@ -1,0 +1,53 @@
+# Large model files
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# LoRA checkpoints
+*_lora/
+*_lora_final/
+llama32_1b_study_lora*/
+
+# Merged models
+llama32_1b_study_merged/
+llama32_1b_study_merged*.gguf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datasets (too large for git)
+Processed Datasets/
+*.jsonl
+
+# Build artifacts
+llama.cpp-master/build/
+*.pdb
+*.ilk
+
+# Logs
+*.log
+
